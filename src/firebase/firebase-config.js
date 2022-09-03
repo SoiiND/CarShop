@@ -9,13 +9,13 @@ export const firebaseConfig = {
 export const actionCodeSettingsVerification = {
   url:
     process.env.NODE_ENV === 'development'
-      ? 'https://carbuyshop1617.vercel.app/'
-      : 'linkDeProducción',
+      ? 'http://localhost:3000/'
+      : 'https://carbuyshop1617.vercel.app/',
 };
 
 export const actionCodeSettingsForgotPassword = {
   url:
     process.env.NODE_ENV === 'development'
-      ? 'https://carbuyshop1617.vercel.app/login'
-      : 'linkDeProducción',
+      ? 'http://localhost:3000/login'
+      : 'https://carbuyshop1617.vercel.app/login',
 };
