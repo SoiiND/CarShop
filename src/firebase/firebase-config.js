@@ -7,7 +7,7 @@ export const firebaseConfig = {
   appId: "1:780519040828:web:00e3e58a34bdf48e2b6039"
 };
 export const actionCodeSettingsVerification = {
-  url: 'https://carbuyshop1617.vercel.app/',
+  url: 'https://carbuyshop1617.vercel.app/login',
   handleCodeInApp: true,
 };
 
