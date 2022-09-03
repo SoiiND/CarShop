@@ -7,15 +7,11 @@ export const firebaseConfig = {
   appId: "1:780519040828:web:00e3e58a34bdf48e2b6039"
 };
 export const actionCodeSettingsVerification = {
-  url:
-    process.env.NODE_ENV === 'development'
-      ? 'http://localhost:3000/'
-      : 'https://carbuyshop1617.vercel.app/',
+  url: 'https://carbuyshop1617.vercel.app/',
+  handleCodeInApp: true,
 };
 
 export const actionCodeSettingsForgotPassword = {
-  url:
-    process.env.NODE_ENV === 'development'
-      ? 'http://localhost:3000/login'
-      : 'https://carbuyshop1617.vercel.app/login',
+  url: 'https://carbuyshop1617.vercel.app/login',
+  handleCodeInApp: true,
 };
